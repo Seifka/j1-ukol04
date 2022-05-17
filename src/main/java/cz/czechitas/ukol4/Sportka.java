@@ -14,12 +14,12 @@ public class Sportka {
 
     public Sportka() {
         //TODO naplnit osudí čísly 1 až 49.
-        int cislaVOsudi = 1;
-        for (int i = 1; i <= 49; i++)
-        {
+
+        for (int cislaVOsudi = 1; cislaVOsudi<= 49; cislaVOsudi++)
+
             osudi.add(cislaVOsudi);
         }
-    }
+
 
     /**
      * Zamíchá osudí.
@@ -40,7 +40,7 @@ public class Sportka {
      */
     public List<Integer> vylosovanaCisla() {
         //TODO Vrátit seznam prvních 6 čísel z osudí.
-        return osudi.subList(1, 6);
+        return osudi.subList(0, 6);
     }
 
     /**
