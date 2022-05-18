@@ -13,7 +13,7 @@ public class Sportka {
 
 
     public Sportka() {
-        //TODO naplnit osudí čísly 1 až 49.
+        //TODO naplnit osudí čísly 1 až 49
 
         for (int cislaVOsudi = 1; cislaVOsudi<= 49; cislaVOsudi++)
 
@@ -50,6 +50,6 @@ public class Sportka {
      */
     public Integer dodatkoveCislo() {
         //TODO Vrátit sedmé číslo z osudí.
-        return osudi.get(7);
+        return osudi.get(6);
     }
 }
